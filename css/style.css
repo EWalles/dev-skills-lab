@@ -1,0 +1,84 @@
+@media only screen and (max-width: 768px) {
+	input {
+    display: block;
+  }
+
+  .delete {
+    display: inline;
+    background-color: orangered;
+  }
+
+  form {
+    display: inline;
+  }
+
+  #add-skill-btn {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+  }
+
+  div {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+}
+
+body {
+    font-family: 'verdana';
+    /* view height */
+    height: 100vh;
+}
+
+/* div:last-child {
+    margin: 0;
+} */
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";   
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; 
+    align-items: center; 
+    align-content: space-between;
+    text-align: center;
+  
+}
+
+header {
+  background-color: #97C282;
+  width: 100%;
+  color: white;
+}
+
+h1{
+  width: 100%;
+}
+
+UL {
+  margin: 50px;
+}
+
+#skill-text-box {
+  color: grey;
+  border: 2px solid#97C282;
+}
+
+#add-skill-btn {
+  color: #97C282;
+  background-color: white;
+  border: 2px solid #97C282;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
